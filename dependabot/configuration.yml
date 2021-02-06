@@ -20,3 +20,8 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
+  # Updates for ruby gems
+  - package-ecosystem: "bundler"
+    directory: "/"
+    schedule:
+      interval: "daily"
