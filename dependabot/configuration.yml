@@ -25,3 +25,8 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
+  # Updates for maven dependencies
+  - package-ecosystem: "maven"
+    directory: "/"
+    schedule:
+      interval: "daily"
